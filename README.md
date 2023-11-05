@@ -47,3 +47,11 @@ Changes in the project's scope and specifications can result from errors in the 
 - **db**: Name of the database to be used.
 - **user**: Username for connecting to the database.
 - **password**: Password for the database user.
+
+3. Optionally, configure the operation mode by adding the `mode` field to the `config.properties` file. It can have three possible values:
+
+   - **create**: This mode is used when you want to reset the database during system startup. It will drop the existing tables and recreate them from scratch.
+   - **update**: This mode is used when you want to continue using the existing database without making any changes to the data.
+   - **create-delete**: This mode is used when you want to reset the database during system startup and also delete all data when the system is shut down. It combines the functionality of both create and delete operations.
+
+   To use the desired mode, you can add the `mode` field to the `config.properties` file and set its value accordingly based on your requirements.
