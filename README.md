@@ -41,9 +41,9 @@ Changes in the project's scope and specifications can result from errors in the 
    user = 'postgres';
    password = '123';
    
-dbType: Specifies the database type (set to 'postgresql').
-host: Database server's IP address or hostname.
-port: Port number for the database server.
-db: Name of the database to be used.
-user: Username for connecting to the database.
-password: Password for the database user.
+- **dbType**: Specifies the database type (set to 'postgresql').
+- **host**: Database server's IP address or hostname.
+- **port**: Port number for the database server.
+- **db**: Name of the database to be used.
+- **user**: Username for connecting to the database.
+- **password**: Password for the database user.
