@@ -64,3 +64,5 @@ Changes in the project's scope and specifications can result from errors in the 
 - **scenarioNumber**: This property represents the specific scenario or data flow (default is 3). You can change this to 1/2/3, depending on your requirements. The scenario number determines the sequence of actions, data transformations, or specific functionalities that will be triggered within the system.
 
 - **serviceURL**: The serviceURL property specifies the URL of the external service that the system will interact with. In this case, the value is set to 'https://php-server-try.000webhostapp.com/'.
+
+5. Save the changes to the config.properties file.
