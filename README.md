@@ -40,29 +40,10 @@ Changes in the project's scope and specifications can result from errors in the 
    db = 'dev_db'; 
    user = 'postgres';
    password = '123';
-dbType: Specifies the type of the database. In this case, it is set to 'postgresql', indicating that the system is using PostgreSQL as the database.
-host: Represents the IP address or hostname of the database server. The provided value is '139.59.209.55', which is the specific address where the database is hosted.
-port: Specifies the port number on which the database server is listening. The provided value is 5432, which is the default port for PostgreSQL.
-db: Indicates the name of the database to be used. In this case, the value is 'dev_db', representing the specific database that the system will connect to.
-user: Specifies the username for connecting to the database. The provided value is 'postgres', which is the username associated with the PostgreSQL database.
-password: Represents the password for the specified database user. The provided value is '123', which is the password associated with the PostgreSQL user.
-Mode (Optional): This field allows for specifying the mode of operation for the system. It can have three possible values:
-
-create: This mode is used when you want to reset the database during system startup. It will drop the existing tables and recreate them from scratch.
-update: This mode is used when you want to continue using the existing database without making any changes to the data.
-create-delete: This mode is used when you want to reset the database during system startup and also delete all data when the system is shut down. It combines the functionality of both create and delete operations.
-To use the desired mode, you can add the mode field to the config.properties file and set its value accordingly based on your requirements.
-
-Update the following properties with the provided values:
-
-properties
-Copy code
-scenarioNumber = 3
-serviceURL = https://php-server-try.000webhostapp.com/
-scenarioNumber: This property represents the specific scenario or data flow to be executed by the system. In this case, the value is set to 3. You can change this to 1/2/3, depending on your requirements. The scenario number determines the sequence of actions, data transformations, or specific functionalities that will be triggered within the system.
-
-serviceURL: The serviceURL property specifies the URL of the external service that the system will interact with. In this case, the value is set to https://php-server-try.000webhostapp.com/.
-
-Save the changes to the config.properties file.
-
-These instructions provide details on how to configure and run the project, including database settings and scenarios for execution. Make sure to follow these steps for setting up and operating the project as needed.
+   
+dbType: Specifies the database type (set to 'postgresql').
+host: Database server's IP address or hostname.
+port: Port number for the database server.
+db: Name of the database to be used.
+user: Username for connecting to the database.
+password: Password for the database user.
