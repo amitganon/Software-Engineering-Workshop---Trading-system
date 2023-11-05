@@ -55,3 +55,12 @@ Changes in the project's scope and specifications can result from errors in the 
    - **create-delete**: This mode is used when you want to reset the database during system startup and also delete all data when the system is shut down. It combines the functionality of both create and delete operations.
 
    To use the desired mode, you can add the `mode` field to the `config.properties` file and set its value accordingly based on your requirements.
+
+4. Update the following properties with the provided values:
+
+   ```properties
+   scenarioNumber = 3
+   serviceURL = https://php-server-try.000webhostapp.com/
+- **scenarioNumber**: This property represents the specific scenario or data flow (default is 3). You can change this to 1/2/3, depending on your requirements. The scenario number determines the sequence of actions, data transformations, or specific functionalities that will be triggered within the system.
+
+- **serviceURL**: The serviceURL property specifies the URL of the external service that the system will interact with. In this case, the value is set to 'https://php-server-try.000webhostapp.com/'.
