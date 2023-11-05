@@ -65,4 +65,4 @@ Changes in the project's scope and specifications can result from errors in the 
 
 - **serviceURL**: The serviceURL property specifies the URL of the external service that the system will interact with. In this case, the value is set to 'https://php-server-try.000webhostapp.com/'.
 
-5. Save the changes to the config.properties file.
+5. Save the changes to the '**config.properties**' file.
